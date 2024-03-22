@@ -1,5 +1,8 @@
 return {
   {
+    "xiyaowong/transparent.nvim",
+  },
+  {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
     opts = function()
@@ -33,5 +36,15 @@ return {
       }
       return opts
     end,
+  },
+  {
+    "olimorris/onedarkpro.nvim",
+    priority = 1000, -- Ensure it loads first
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "onedark",
+    },
   },
 }
