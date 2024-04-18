@@ -61,4 +61,11 @@ return {
   {
     "plainfingers/black_is_the_color",
   },
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      stages = "slide",
+      timeout = 0,
+    },
+  },
 }
