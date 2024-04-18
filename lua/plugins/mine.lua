@@ -40,7 +40,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "default",
+      colorscheme = "black_is_the_color",
     },
   },
   {
@@ -48,5 +48,17 @@ return {
     opts = {
       background_colour = "#000000",
     },
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      background_colour = "#000000",
+    },
+  },
+  {
+    "cocopon/iceberg.vim",
+  },
+  {
+    "plainfingers/black_is_the_color",
   },
 }
